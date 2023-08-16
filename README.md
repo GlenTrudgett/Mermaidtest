@@ -12,15 +12,11 @@ sequenceDiagram
     dotcom->>iframe: set mermaid data on iframe
     iframe->>iframe: render mermaid
 ```
-
 ```mermaid
 flowchart TD
-    A[Deploy to production] --> B{Is it Friday?}
-    B -- Yes --> C[Do Not Deploy!]
-    B -- No --> D[Run deploy.sh to deploy!]
-    C ----> E[Enjoy your weekend!]
-    D ----> E{Enjoy your weekend!]
+    Start --> Stop
 ```
+
 ```mermaid
   graph TD;
       A-->B;
