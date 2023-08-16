@@ -1,4 +1,5 @@
 # Mermaidtest
+
 ```mermaid
 mindmap
   root((mindmap))
@@ -17,7 +18,8 @@ mindmap
     Tools
       Pen and paper
       Mermaid
-```      
+```
+
 ```mermaid
 sequenceDiagram
     participant dotcom
